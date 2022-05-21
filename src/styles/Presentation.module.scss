@@ -1,0 +1,29 @@
+@import 'vars';
+
+.Presentation {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.Circle {
+	box-shadow: 0 0 8px 2px rgba($color-primary, 0.1);
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 8px;
+	border-radius: 200px;
+
+	p {
+		font-weight: bold;
+		color: $color-primary;
+	}
+}
+
+.Logo {
+	height: 80px;
+	pointer-events: none;
+}
