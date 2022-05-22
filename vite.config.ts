@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: 'https://geaglts.github.io/portfolio-official/',
+	base: '/',
 	plugins: [react(), viteTypescriptPaths()],
 });
