@@ -1,0 +1,13 @@
+@import 'vars';
+
+.Container {
+	text-align: center;
+	padding: 12px 0;
+	height: 70px;
+}
+
+.Text {
+	font-family: $font-montserrat;
+	font-size: 12pt;
+	color: $color-primary;
+}

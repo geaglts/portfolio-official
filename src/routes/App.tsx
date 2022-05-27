@@ -1,11 +1,11 @@
 import Presentation from '@containers/Presentation';
-import styles from '@styles/App.module.scss';
+import Layout from '@containers/Layout';
 
 function App() {
 	return (
-		<div className={styles.app}>
+		<Layout>
 			<Presentation />
-		</div>
+		</Layout>
 	);
 }
 

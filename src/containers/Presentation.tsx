@@ -6,7 +6,7 @@ const Presentation = () => {
 		<div className={styles.Presentation}>
 			<div className={styles.Circle}>
 				<img src={logo} className={styles.Logo} alt="logo" />
-				<p>Hola, soy Geaglts</p>
+				<p>Hola, soy Miguel Angel</p>
 				<p>Portafolio en construcción.</p>
 			</div>
 		</div>

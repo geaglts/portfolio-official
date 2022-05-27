@@ -1,0 +1,9 @@
+@import 'vars';
+
+.Content {
+	list-style: none;
+	display: flex;
+	li + li {
+		margin-left: 12px;
+	}
+}

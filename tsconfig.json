@@ -21,6 +21,7 @@
 			"@routes/*": ["routes/*"],
 			"@containers/*": ["containers/*"],
 			"@components/*": ["components/*"],
+			"@fragments/*": ["fragments/*"],
 			"@icons/*": ["assets/icons/*"]
 		}
 	},
